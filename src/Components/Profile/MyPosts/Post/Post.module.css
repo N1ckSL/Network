@@ -1,0 +1,21 @@
+.item{
+    color: rgb(25, 29, 29);
+    margin-bottom: 25px;
+}
+
+.item img{
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.post__likes img{
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 0;
+}

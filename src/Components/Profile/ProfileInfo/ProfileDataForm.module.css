@@ -1,0 +1,8 @@
+
+.form__error{
+    font-weight: 500;
+    color:  rgba(182, 5, 5, 0.863);
+    margin-top: 15px;
+    padding: 2px 5px;
+
+}

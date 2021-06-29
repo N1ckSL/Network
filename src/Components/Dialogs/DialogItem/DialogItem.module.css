@@ -1,0 +1,11 @@
+
+.dialog.active a{
+    text-decoration: none;
+    color: rgb(141, 44, 9);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.dialog{
+    text-decoration: none;
+}

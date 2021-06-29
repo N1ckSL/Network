@@ -1,0 +1,56 @@
+.settings__wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.settings h2{
+    text-align: center;
+}
+
+
+.profile__wrapper{
+    width: 100%;
+    height: 15%;
+    border: 2px solid cyan;
+    border-radius:0 15px 15px 15px;
+    margin-bottom: 30px;
+
+}
+
+.profile{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.profile__text{
+    position: relative;
+    left: 0;
+    top: -43px;
+    z-index: 2;
+    letter-spacing: 1px;
+    width: 170px;
+}
+
+.change__password{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.change__password input{
+    border-radius: 5px 10px 10px 5px;
+    padding: 5px 10px;
+    border: 1px solid cyan;
+}
+
+.current__password{
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+.current__password input{
+    margin-left: 10px;
+}
+
+.new__password input{
+    margin-left: 35px;
+}

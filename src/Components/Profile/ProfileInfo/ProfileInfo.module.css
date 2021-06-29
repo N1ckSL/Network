@@ -1,0 +1,64 @@
+.profileimg__wrapper{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url("https://i.pinimg.com/originals/f0/54/83/f05483028878fe9037a6d2f0d46444d5.png");
+    background-size: contain;
+}
+
+.description__wrapper{
+    border: 0 solid cyan;
+    border-radius:0 0 20px 0;
+}
+
+.profile__avatar{
+    position: relative;    
+    left: 47.5%;
+    top: -10px;
+    transform: translate(-45%,-100px);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.avatar__img{
+    border-radius: 50%;
+    border: 5px solid cadetblue;
+    width: 200px;  
+    height: 200px;
+    /* max-width: 100%; */
+}
+
+.load__photo{
+    position: relative;
+    z-index: 20;
+    left: 210px;
+    top: -80px;
+}
+
+.username{
+    text-transform: uppercase;
+    font-size: 24px;
+    position: relative;
+    top: -100px;
+    left: -25px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+}
+
+.profile__contacts{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.profileedit__btn{
+    margin: 5px 0 5px 10px;
+}
+
+.profile__description{
+    margin: 0 0 5px 20px;
+}

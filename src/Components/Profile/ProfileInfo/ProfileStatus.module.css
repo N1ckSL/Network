@@ -1,0 +1,24 @@
+.profile__status{
+    margin: 0 20px 25px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 1px solid cadetblue;
+    border-radius: 2px 10px 10px 10px;
+}
+
+.status__editable input{
+    font-size: 14px;
+    color: #000;
+    padding: 10px 15px;
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px dashed cadetblue;
+    background-color: white;
+    color: cadetblue;
+    font-weight: 700;
+}

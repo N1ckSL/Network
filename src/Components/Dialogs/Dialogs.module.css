@@ -1,0 +1,19 @@
+.dialogs__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs__items{
+    padding: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.dialogs__items .active{
+    color: rgb(141, 44, 9);
+}
+
+.dialogs{
+    margin-bottom: 30px;
+    text-decoration: none;
+}

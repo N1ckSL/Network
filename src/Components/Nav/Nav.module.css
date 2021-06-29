@@ -1,0 +1,54 @@
+.nav{
+    grid-area: n;
+    background:linear-gradient(130deg,cadetblue,rgb(52, 82, 83));
+    padding: 20px;
+    border-radius: 0 25px 0 0;
+  }
+
+  .item a{
+      color: rgb(65, 65, 65);
+      text-decoration: none;
+      margin-bottom: 25px;
+      font-size: 24px;
+  }
+
+.item a:hover{
+    font-weight: 700;
+}
+  .last {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  .item a.activeLink{
+      color: white;
+      font-weight: normal;
+  }
+
+ 
+
+  .friends{
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  .friends__list{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .friends__list li{
+      text-decoration: none;
+      list-style: none;
+  }
+
+  .friends__list__item{
+      margin-left: 10px;
+  }
+
+  .friends__list__item img{
+      width: 40px;
+      height: 40px;
+      background-repeat: 50%;
+  }
